@@ -1,19 +1,27 @@
 # Password Generator
 
-Gerador de senhas seguro e aleatório desenvolvido em [linguagem de programação].
+Gerador de senhas aleatórias em Python, usando o módulo `secrets` da biblioteca padrão.
 
-## Funcionalidades
+## O que faz
 
-* Gera senhas fortes e únicas
-* Permite personalização da senha (ex: tamanho, tipo de caracteres)
-* Fácil de usar e entender
+* Gera uma senha de 16 caracteres com letras maiúsculas e minúsculas, números e símbolos
+* Usa `secrets`, indicado para dados sensíveis
+* Não tem dependências externas
 
 ## Como usar
 
-1. Baixe o código fonte do repositório
-2. Execute o arquivo `index.html` para acessar a interface do usuário
-3. Selecione as opções de personalização da senha e clique em "Gerar senha"
+Requer Python 3.
 
-## Contribua
+```bash
+git clone https://github.com/DeniCastro/password-generator.git
+cd password-generator
+python password-generator.py
+```
 
-Se você deseja contribuir para o projeto, por favor envie um pull request com suas alterações.
+## Ajustes
+
+Para mudar o tamanho da senha, edite a variável `senha_length` no arquivo `password-generator.py`.
+
+## Licença
+
+MIT. Veja o arquivo `LICENSE`.
